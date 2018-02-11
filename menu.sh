@@ -1,9 +1,11 @@
 #!/bin/bash
 
 clear
-echo Menu
+echo "Menu de scripts"
 
-scriptsFolder="./script"
+myFolder="/mnt/Compart/Scripts"
+scriptsFolder="script"
+scriptsFolder="$myFolder/$scriptsFolder"
 wordName="nome"
 wordDescription="Descricao"
 scripts=($(ls $scriptsFolder | sed 's/ /\n/g'))
