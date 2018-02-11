@@ -35,7 +35,10 @@ while true; do
 		exit
 	elif test "${scripts[$input_variable]+isset}"; then
 		echo "O script que vai ser executado: ${scripts[$input_variable]}"
+		echo
 		$scriptsFolder/${scripts[$input_variable]}
+		echo
+		echo "Final da execução do script"
 		exit
 	else
 		echo "Posição não é valida"
