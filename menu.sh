@@ -4,7 +4,7 @@ clear
 echo "Menu de scripts"
 
 myFolder="/mnt/Compart/Scripts"
-scriptsFolder="script"
+scriptsFolder="scriptsMenu"
 scriptsFolder="$myFolder/$scriptsFolder"
 wordName="nome"
 wordDescription="Descricao"
